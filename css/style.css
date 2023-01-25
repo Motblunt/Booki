@@ -1,0 +1,635 @@
+body {
+  max-width: 1400px;
+  margin: auto;
+  padding-inline: 55px;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bordureNone {
+  border: none;
+}
+
+.flexbetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexCentre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HEADER */
+
+header img {
+  height: 19px;
+  width: 61.09px;
+
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: 16px;
+  line-height: 19px;
+  font-style: normal;
+  margin-top: 24px;
+
+}
+
+header ul li {
+  margin-right: 40px;
+}
+
+header .encadre-bleu {
+  padding: 36px;
+}
+
+header .encadre-bleu:hover {
+  border-top: solid 2px #0065fc;
+  color: #0065fc;
+  padding: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 26px;
+  margin-top: 63px;
+  width: 100%;
+  height: 26px;
+  top: 126px;
+
+}
+
+.position {
+  margin-top: 8px;
+  width: 296px;
+  height: 19px;
+  left: 55px;
+  top: 160px;
+}
+
+.bordureSearch {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*BARRE DE RECHERCHE*/
+
+.fa-magnifying-glass{
+  display: none;
+}
+
+.DeskNone {
+  display: none;
+}
+
+.iconButton {
+  visibility: hidden;
+}
+
+.recherche {
+  height: 50px;
+  width: 230px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  font-weight: 700;
+
+}
+
+.iconSize {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px 0 0 15px;
+}
+
+.backGris {
+  background-color: #f2f2f2;
+}
+
+.paddingSearch {
+  padding-left: 20px;
+  border: 1px solid #F2F2F2;
+}
+
+.backBleu {
+  background-color: #0065fc;
+}
+
+.buttonSearch {
+  height: 50px;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 15px 15px 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21.13px;
+  padding-inline: 15px;
+  border: none;
+}
+
+/*FILTRES*/
+
+.ul-filtre {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.margeFiltre {
+  margin-top: 31px;
+  margin-bottom: 40px;
+}
+
+.filtre {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.margeFiltreTitre {
+  margin-right: 20px;
+}
+
+.filtreTexteIcons {
+  border: 2px solid #F2F2F2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+  display: flex;
+  padding-right: 20px;
+}
+
+.FI {
+  width: 52px;
+  height: 52px;
+  color: #0065fc;
+}
+
+.colorFont {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 19.96px;
+}
+
+.filtreTexteIcons:hover {
+  background-color: #DEEBFF;
+}
+
+.infobutton {
+  display: flex;
+  margin-bottom: 39px;
+}
+
+.Iconinfo {
+  border: 1px solid #D9D9D9;
+  border-radius: 50%;
+  padding-inline: 6px;
+  color: #0065FC;
+  padding-top: 7px;
+}
+
+.textbutton {
+  padding-left: 11px;
+}
+
+/*POPULAIRE + HEBERGEMENT*/
+
+.colorgrey {
+  color: #F2F2F2;
+}
+
+.colorblue {
+  color: #0065fc;
+}
+
+.section2 {
+  min-height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heb-marseille {
+  flex-basis: 64%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+
+.heb-marseille-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px
+}
+
+.plus-pop-content {
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-plus-pop {
+  height: 130px;
+  width: 100%;
+  display: flex;
+}
+
+
+.plus-pop {
+  flex-basis: 33%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+
+.card-heb-marseille {
+  display: block;
+  width: 30%;
+  height: 200px;
+}
+
+
+.card-heb-marseille-img-wrapper {
+  height: 60%;
+  padding: 3px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: white;
+}
+
+.card-heb-marseille-text-wrapper {
+  height: 40%;
+  padding-top: 6px;
+  padding-left: 6px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.card-heb-marseille-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card-plus-pop-img-wrapper {
+  flex-basis: 40%;
+  padding: 3px;
+  background-color: white;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.card-plus-pop-img-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.card-plus-pop-text-wrapper {
+  flex-basis: 60%;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: white;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.h4heb {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.pheb {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.iconpluspop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconpaddingpop {
+  padding-top: 10px;
+}
+
+
+/*ACTIVITES A MARSEILLE*/
+
+.blocactivite {
+  display: flex;
+}
+
+.imageactivite {
+  object-fit: cover;
+  height: 389px;
+  width: 290px;
+  border-radius: 20px 20px 0 0;
+}
+
+.tailleactivite {
+  height: 445px;
+  width: 290px;
+  margin-right: 43px;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.textact {
+  padding-top: 17px;
+  padding-left: 10px;
+  padding-bottom: 21px;
+  margin: unset;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.h4act {
+  padding-top: 60px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.act-marseille-content {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+.card-act-marseille {
+  display: block;
+  width: 22%;
+  height: 445px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+}
+
+.card-act-marseille-img-wrapper {
+  height: 90%;
+  border-radius: 20px 0 0 20px;
+}
+
+.card-act-marseille-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-act-marseille-txt-wrapper {
+  height: 10%;
+  border-radius: 0 0 20px 20px;
+  padding-left: 15px;
+}
+
+.textact2 {
+  margin-top: 12.5px;
+}
+
+A:visited {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F2F2F2;
+}
+
+footer {
+  padding-top: 61px;
+}
+
+.li-footer {
+  padding-top: 12px;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+
+/* Version Tablette */
+
+@media screen and (max-width: 992px) {
+
+
+  .section2 {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .plus-pop-content {
+    flex-direction: row;
+  }
+
+  .card-plus-pop {
+    padding-inline: 15px;
+  }
+
+  .br-none {
+    display: none;
+  }
+
+  .card-act-marseille {
+    max-height: 267px;
+  }
+
+  .card-act-marseille-img-wrapper {
+    height: 83%;
+  }
+
+  .textact3 {
+    margin-top: 4px;
+  }
+
+}
+
+/* Version Mobile */
+
+@media screen and (max-width: 768px) {
+
+  body{
+    padding-inline: 0px;
+  }
+
+  .paddingMob{
+    padding-inline: 20px;
+  }
+  
+  nav{
+    width: 100%;
+  }
+ 
+  .li-mob1{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+  }
+
+  .li-mob2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+ .nowrap-mob{
+  flex-wrap: nowrap;
+ }
+
+  header .encadre-bleu:hover {
+    border-bottom: solid 3px #0065fc;
+    color: #0065fc;    
+    border-top: none;
+    width: 100%;
+       
+  }
+
+  header .encadre-bleu {
+    border-bottom: solid 3px #f2f2f2;
+    width: 100%; 
+    display: flex;
+    justify-content: center;  
+  } 
+
+  header ul li{
+    margin: 0;
+  }
+
+  .txt-search-mob{
+    display: flex;
+    flex-direction: column;
+  }
+
+  button span{
+  display: none;
+ }
+
+ .bordureSearch{
+  width: auto;
+
+ }
+
+ .recherche{
+  width: 100%;
+ }
+
+ .fa-magnifying-glass{
+  display: block;
+ }
+
+ .filtreTexteIcons{
+  margin: 5px 5px 5px 0;
+ }
+
+ .filtre{
+  display: block;
+ }
+
+ .plus-pop{
+  order: -1;
+  border-radius: 0px;
+ }
+
+ .plus-pop-content{
+  flex-direction: column;
+  row-gap: 10px;
+  
+ }
+
+ .heb-marseille{
+  border-radius: 0px;
+  background-color: white;
+ }
+
+ .card-plus-pop-text-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+
+ .heb-marseille-content{
+  flex-direction: column;
+ }
+
+ .card-heb-marseille{
+  width: 100%;
+  box-shadow: rgb(99 99 99 / 20%) 0px 8px 8px 2px;
+  border-radius: 20px;
+ }
+
+ .MobNone{
+  display: none;
+ }
+ 
+ .act-marseille-content{
+  flex-direction: column;
+  padding-inline: 20px;
+ }
+
+ .card-act-marseille{
+  width: 100%;
+  box-shadow: rgb(99 99 99 / 20%) 0px 8px 8px 2px;
+  border-radius: 20px;
+ }
+
+ .footer-flex{
+  flex-direction: column;
+  align-items: flex-start;
+ }
+
+}
