@@ -163,21 +163,21 @@ h1 {
 
 /*FILTRES*/
 
-.ul-filtre {
+.filtres {
   display: flex;
+  align-items: center;  
   flex-wrap: wrap;
+  column-gap: 33px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
-.margeFiltre {
-  margin-top: 31px;
-  margin-bottom: 40px;
-}
-
-.filtre {
+.flex-between{
   display: flex;
   align-items: center;
-  font-weight: bold;
-}
+  flex-wrap: wrap;
+  column-gap: 23px;
+  }
 
 .margeFiltreTitre {
   margin-right: 20px;
@@ -186,8 +186,7 @@ h1 {
 .filtreTexteIcons {
   border: 2px solid #F2F2F2;
   height: 50px;
-  border-radius: 30px;
-  margin-right: 20px;
+  border-radius: 30px;  
   display: flex;
   padding-right: 20px;
 }
@@ -201,24 +200,27 @@ h1 {
 .colorFont {
   font-weight: 700;
   font-size: 17px;
-  line-height: 19.96px;
+  line-height: 19.96px; 
 }
 
 .filtreTexteIcons:hover {
   background-color: #DEEBFF;
 }
 
-.infobutton {
+.display-txt{
   display: flex;
-  margin-bottom: 39px;
+  align-items: center;
+  padding-bottom: 30px;
 }
 
 .Iconinfo {
   border: 1px solid #D9D9D9;
   border-radius: 50%;
-  padding-inline: 6px;
-  color: #0065FC;
-  padding-top: 7px;
+  height: 20px;
+  width: 20px;  
+  min-width: 20px;
+  min-height: 20px;
+  color: #0065FC; 
 }
 
 .textbutton {
@@ -294,6 +296,9 @@ h1 {
 }
 
 .card-heb-marseille-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 40%;
   padding-top: 6px;
   padding-left: 6px;
@@ -328,9 +333,13 @@ h1 {
   padding-top: 10px;
   background-color: white;
   border-radius: 0px 20px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .h4heb {
+  font-size: 14px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -340,7 +349,7 @@ h2 {
 }
 
 .pheb {
-  font-size: 15px;
+  font-size: 13px;
   margin-top: 5px;
 }
 
@@ -572,13 +581,15 @@ h5 {
   display: block;
  }
 
- .filtreTexteIcons{
-  margin: 5px 5px 5px 0;
- }
+.flex-between{
+  flex-wrap: nowrap;
+}
 
- .filtre{
-  display: block;
+ .filtres{
+  row-gap: 15px;
+
  }
+ 
 
  .plus-pop{
   order: -1;
