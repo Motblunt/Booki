@@ -595,6 +595,9 @@ h5 {
 
   .filtres {
     row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
   }
 
